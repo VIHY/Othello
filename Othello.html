@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黑白棋</title>
+    <link rel="stylesheet" href="./whiteBlack.css">
+</head>
+<body>
+    <div class="bifen">
+        <div id="black">{{black}}</div>
+        <div id="white">{{white}}</div>
+    </div>
+    <div class="end">
+        <button onclick="gameover()">认输</button>
+    </div>
+    <div class="board">
+        <div class="row">
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+            <div class="column" onclick="chess(event)">
+                <div class=""></div>
+            </div>
+        </div>
+    </div>
+    <script src="./blackWhite.js"></script>
+</body>
+</html>
